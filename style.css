@@ -4,7 +4,7 @@
 
 /* --- CSS Variables / Design Tokens --- */
 :root {
-  --primary: #0284c7;
+  
   --primary-hover: #0369a1;
   --primary-light: #e0f2fe;
   --primary-glow: rgba(2, 132, 199, 0.18);
