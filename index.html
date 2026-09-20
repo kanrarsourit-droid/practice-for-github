@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FreshWash Laundry - Professional Wash & Fold, Dry Cleaning, and Express Ironing with free pickup and delivery right at your doorstep.">
+  <title>FreshWash Laundry | Professional Wash, Fold & Dry Cleaning Service</title>
+  <!-- Google Font: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Header & Navigation
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo" id="brand-logo" aria-label="FreshWash Home">
+        <span class="brand-icon">
+          <!-- Sparkle / Laundry Washing icon -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+          </svg>
+        </span>
+        FreshWash
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#booking">Book Pickup</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#booking" class="btn btn-primary" id="header-booking-btn">Schedule Pickup</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         Hero Section
+         ========================================================================= -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge">Eco-Friendly & Reliable</span>
+          <h1 class="hero-title">
+            Fresh, Clean Laundry <br>
+            <span>Delivered To Your Door</span>
+          </h1>
+          <p class="hero-desc">
+            Save hours every week. We take care of your laundry, dry cleaning, and ironing with premium care and fast 24-hour turnaround.
+          </p>
+          <div class="hero-actions">
+            <a href="#booking" class="btn btn-primary btn-lg" id="hero-cta-btn">Book Free Pickup</a>
+            <a href="#pricing" class="btn btn-outline btn-lg" id="hero-pricing-btn">View Pricing</a>
+          </div>
+
+          <div class="hero-features">
+            <div class="feature-pill">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Free Pickup & Delivery</span>
+            </div>
+            <div class="feature-pill">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Gentle Eco Wash</span>
+            </div>
+            <div class="feature-pill">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>24h Turnaround</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-image-container">
+            <img src="images/hero.jpg" alt="Freshly cleaned towels and modern laundry room" id="hero-img">
+          </div>
+          <div class="hero-badge-float">
+            <div class="badge-icon">
+              <!-- Star icon -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <div class="badge-text">
+              <strong>15,000+ Happy Loads</strong>
+              <span>5-Star Rated Laundry Service</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Services Section
+         ========================================================================= -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Our Services</span>
+          <h2 class="section-title">Complete Fabric Care for Every Garment</h2>
+          <p class="section-subtitle">From everyday casual wear to delicate silks and large bedding items, we handle each piece with tailored care.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <article class="service-card" id="service-wash-fold">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="18" rx="2"></rect>
+                <circle cx="12" cy="13" r="5"></circle>
+                <line x1="6" y1="7" x2="6.01" y2="7"></line>
+                <line x1="10" y1="7" x2="10.01" y2="7"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Wash & Fold</h3>
+            <p class="service-desc">Everyday clothes sorted by color, washed with gentle hypo-allergenic detergent, dried, and neatly folded.</p>
+            <ul class="service-perks">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Color separation guarantee
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Crisp military or standard folding
+              </li>
+            </ul>
+            <a href="#booking" class="service-link">Order Wash & Fold &rarr;</a>
+          </article>
+
+          <!-- Service Card 2 -->
+          <article class="service-card" id="service-dry-cleaning">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Dry Cleaning</h3>
+            <p class="service-desc">Gentle solvent cleaning designed specifically for suits, evening wear, silk, cashmere, and coats.</p>
+            <ul class="service-perks">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Specialized stain treatment
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Hanger & protective garment bag
+              </li>
+            </ul>
+            <a href="#booking" class="service-link">Order Dry Cleaning &rarr;</a>
+          </article>
+
+          <!-- Service Card 3 -->
+          <article class="service-card" id="service-steam-ironing">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 18h16"></path>
+                <path d="M4 14h16"></path>
+                <path d="m19 14-3.5-7.5A2 2 0 0 0 13.68 5H6a2 2 0 0 0-2 2v7"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Steam Press & Iron</h3>
+            <p class="service-desc">Professional steam pressing removes every wrinkle, giving shirts, trousers, and uniforms a crisp executive look.</p>
+            <ul class="service-perks">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Hand-finished collar & cuffs
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Starch preference option
+              </li>
+            </ul>
+            <a href="#booking" class="service-link">Order Ironing &rarr;</a>
+          </article>
+
+          <!-- Service Card 4 -->
+          <article class="service-card" id="service-bedding">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 4v16"></path>
+                <path d="M2 8h18a2 2 0 0 1 2 2v10"></path>
+                <path d="M2 17h20"></path>
+                <path d="M6 8v9"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Bedding & Linens</h3>
+            <p class="service-desc">Deep sanitize cleaning for bulky comforters, duvets, blankets, pillows, and tablecloths.</p>
+            <ul class="service-perks">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Dust-mite & allergen removal
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Oversized commercial washers
+              </li>
+            </ul>
+            <a href="#booking" class="service-link">Order Bedding Care &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         How It Works
+         ========================================================================= -->
+    <section class="section how-it-works" id="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Simple Process</span>
+          <h2 class="section-title">How FreshWash Works</h2>
+          <p class="section-subtitle">Fresh laundry in 4 effortless steps. You schedule, we do all the heavy lifting.</p>
+        </div>
+
+        <div class="steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card" id="step-1">
+            <div class="step-number">1</div>
+            <div class="step-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <h3 class="step-title">Schedule Pickup</h3>
+            <p class="step-desc">Book online in 60 seconds. Pick a pickup day and time window that suits you best.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card" id="step-2">
+            <div class="step-number">2</div>
+            <div class="step-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <h3 class="step-title">We Collect</h3>
+            <p class="step-desc">Our driver arrives with laundry bags at your doorstep to pick up your garments safely.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card" id="step-3">
+            <div class="step-number">3</div>
+            <div class="step-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <h3 class="step-title">Expert Wash & Care</h3>
+            <p class="step-desc">Garments are cleaned according to label instructions using non-toxic detergents.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="step-card" id="step-4">
+            <div class="step-number">4</div>
+            <div class="step-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h3 class="step-title">Fresh Delivery</h3>
+            <p class="step-desc">Neatly packed, folded, or pressed clothes delivered back ready for your wardrobe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Pricing Section
+         ========================================================================= -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Transparent Rates</span>
+          <h2 class="section-title">Simple & Affordable Pricing</h2>
+          <p class="section-subtitle">No hidden fees, no subscriptions required. Pay only for what you wash.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Wash & Fold -->
+          <div class="pricing-card featured" id="pricing-wash-fold">
+            <div class="popular-tag">Most Popular</div>
+            <div class="pricing-head">
+              <h3 class="pricing-name">Wash & Fold</h3>
+              <p class="pricing-sub">Ideal for everyday clothes & towels</p>
+            </div>
+            <div class="pricing-rate">
+              $1.99 <span>/ lb (min. 10 lbs)</span>
+            </div>
+            <ul class="pricing-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Color & darks separation
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Hypoallergenic detergent
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Crisp folding & bag packaging
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Free pickup & delivery over $30
+              </li>
+            </ul>
+            <a href="#booking" class="btn btn-primary">Choose Wash & Fold</a>
+          </div>
+
+          <!-- Dry Cleaning -->
+          <div class="pricing-card" id="pricing-dry-cleaning">
+            <div class="pricing-head">
+              <h3 class="pricing-name">Dry Cleaning</h3>
+              <p class="pricing-sub">For formal wear, suits, dresses & silks</p>
+            </div>
+            <div class="pricing-rate">
+              $6.50 <span>/ piece starts</span>
+            </div>
+            <ul class="pricing-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Individual garment inspection
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Professional stain spot removal
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Delivered on sturdy hangers
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Breathable garment cover included
+              </li>
+            </ul>
+            <a href="#booking" class="btn btn-outline">Choose Dry Cleaning</a>
+          </div>
+
+          <!-- Ironing & Pressing -->
+          <div class="pricing-card" id="pricing-ironing">
+            <div class="pricing-head">
+              <h3 class="pricing-name">Iron & Steam Press</h3>
+              <p class="pricing-sub">Wrinkle-free look for work & events</p>
+            </div>
+            <div class="pricing-rate">
+              $2.75 <span>/ piece</span>
+            </div>
+            <ul class="pricing-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                High-pressure steam smoothing
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Light or medium starch options
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Hung or folded to your preference
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Collars & cuffs pressed sharp
+              </li>
+            </ul>
+            <a href="#booking" class="btn btn-outline">Choose Steam Press</a>
+          </div>
+
+          <!-- Bedding & Comforter -->
+          <div class="pricing-card" id="pricing-bedding">
+            <div class="pricing-head">
+              <h3 class="pricing-name">Bulky Items & Bedding</h3>
+              <p class="pricing-sub">Duvets, heavy comforters & blankets</p>
+            </div>
+            <div class="pricing-rate">
+              $15.00 <span>/ item starts</span>
+            </div>
+            <ul class="pricing-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Deep allergen elimination
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Down & synthetic fill safe
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Gentle low-heat tumble drying
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Clean storage zipper bag
+              </li>
+            </ul>
+            <a href="#booking" class="btn btn-outline">Choose Bedding Care</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Value Proposition Banner
+         ========================================================================= -->
+    <section class="value-props">
+      <div class="container">
+        <div class="values-grid">
+          <div class="value-item">
+            <div class="value-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3>Fabric Safe Guarantee</h3>
+            <p>We honor garment care labels to ensure longevity and zero shrinkage.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
+            </div>
+            <h3>Eco-Friendly Detergents</h3>
+            <p>Biodegradable, zero harsh phosphate formulas that protect skin and nature.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+            <h3>Fast 24-Hour Turnaround</h3>
+            <p>Need it quickly? Enjoy reliable express next-day delivery on standard orders.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+            </div>
+            <h3>Contactless Pickup</h3>
+            <p>Leave your bags by your porch or reception desk. We handle the rest.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Booking / Contact Form Section
+         ========================================================================= -->
+    <section class="section booking-section" id="booking">
+      <div class="container">
+        <div class="booking-wrapper">
+          <!-- Form Side -->
+          <div class="form-side">
+            <h2>Book Your Laundry Pickup</h2>
+            <p>Fill out the simple form below. We will confirm your pickup slot right away.</p>
+            
+            <form action="#booking" method="get" class="booking-form" id="laundry-booking-form">
+              <div class="form-group">
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full-name" class="form-control" placeholder="e.g. Sarah Jenkins" required>
+              </div>
+
+              <div class="form-group">
+                <label for="phone-number">Phone Number *</label>
+                <input type="tel" id="phone-number" name="phone-number" class="form-control" placeholder="(555) 000-1234" required>
+              </div>
+
+              <div class="form-group">
+                <label for="service-type">Primary Service *</label>
+                <select id="service-type" name="service-type" class="form-control" required>
+                  <option value="" disabled selected>Select a service</option>
+                  <option value="wash-fold">Wash & Fold</option>
+                  <option value="dry-cleaning">Dry Cleaning</option>
+                  <option value="steam-ironing">Steam Press & Ironing</option>
+                  <option value="bedding">Bedding & Heavy Linens</option>
+                  <option value="mixed">Mixed Services</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="pickup-date">Preferred Pickup Date *</label>
+                <input type="date" id="pickup-date" name="pickup-date" class="form-control" required>
+              </div>
+
+              <div class="form-group full">
+                <label for="address">Pickup Address *</label>
+                <input type="text" id="address" name="address" class="form-control" placeholder="Street Address, Apt / Suite, City" required>
+              </div>
+
+              <div class="form-group full">
+                <label for="notes">Special Care Notes (Optional)</label>
+                <textarea id="notes" name="notes" class="form-control" placeholder="e.g. Please use unscented detergent, stain on blue shirt..."></textarea>
+              </div>
+
+              <div class="form-group full">
+                <button type="submit" class="btn btn-primary btn-lg form-submit-btn" id="submit-booking-btn">
+                  Confirm Pickup Request
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Info / Highlights Side -->
+          <div class="info-side" id="contact">
+            <div>
+              <h3>Need Immediate Help?</h3>
+              <div class="info-blocks">
+                <div class="info-card">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  </div>
+                  <div class="info-text">
+                    <strong>Call or WhatsApp Us</strong>
+                    <p>+1 (800) 555-WASH (9274)<br>Daily: 7:30 AM – 8:30 PM</p>
+                  </div>
+                </div>
+
+                <div class="info-card">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  </div>
+                  <div class="info-text">
+                    <strong>Email Inquiries</strong>
+                    <p>support@freshwashlaundry.com<br>Response within 2 hours</p>
+                  </div>
+                </div>
+
+                <div class="info-card">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  </div>
+                  <div class="info-text">
+                    <strong>Main Facility & Drop-off</strong>
+                    <p>124 Clean River Way, Suite 100<br>Downtown Metro Area</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pickup-guarantee">
+              <p><strong>100% Satisfaction Guarantee:</strong> If any garment isn't cleaned to your expectation, we will re-wash or re-press it completely free of charge.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="brand-logo">
+          <span class="brand-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+              <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg>
+          </span>
+          FreshWash
+        </a>
+        <p class="footer-desc">
+          Quality laundry, dry cleaning, and garment care simplified for modern life. Experience crisp freshness every day.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Services</h4>
+        <ul class="footer-links">
+          <li><a href="#services">Wash & Fold</a></li>
+          <li><a href="#services">Eco Dry Cleaning</a></li>
+          <li><a href="#services">Steam Pressing</a></li>
+          <li><a href="#services">Bedding & Linens</a></li>
+          <li><a href="#services">Stain Treatment</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#pricing">Price Calculator</a></li>
+          <li><a href="#booking">Book Pickup</a></li>
+          <li><a href="#contact">Customer Support</a></li>
+          <li><a href="#">Terms & Privacy</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Hours</h4>
+        <ul class="footer-links">
+          <li>Mon – Fri: 7:00 AM – 8:00 PM</li>
+          <li>Saturday: 8:00 AM – 7:00 PM</li>
+          <li>Sunday: 9:00 AM – 5:00 PM</li>
+          <li style="margin-top: 0.5rem; color: #38bdf8;">Same-Day Express Available</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 FreshWash Laundry Co. All rights reserved.</p>
+      <p>Cleaned with care &bull; Eco-friendly &bull; 100% Guaranteed</p>
+    </div>
+  </footer>
+
+</body>
+</html>
